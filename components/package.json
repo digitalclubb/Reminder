@@ -1,0 +1,16 @@
+{
+    "name": "components",
+    "version": "0.0.0",
+    "description": "Shared components for all applications",
+    "type": "module",
+    "module": "index.ts",
+    "svelte": "index.ts",
+    "license": "MIT",
+    "scripts": {
+        "lint": "prettier --check . && eslint \".\"",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "svelte": "^3.9.2"
+    }
+}
